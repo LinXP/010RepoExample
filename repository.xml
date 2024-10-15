@@ -1,0 +1,68 @@
+<template>
+  <id>10001</id>
+  <filename>EXAMPLE1.bt</filename>
+  <version>1.0</version>
+  <authors>SweetScape Software</authors>
+  <description>Parse EXAMPLE1 image files.</description>
+  <category>Image</category>
+  <filemask>*.bmp</filemask>
+  <idbytes>42 4D //BM</idbytes>
+  <hash>320f4cf7614485879ea6514f4437c010a7df1c45</hash>
+  <date>2016-02-19</date>
+  <changeauthor>LinXP</changeauthor>
+  <comment>Updated header for repository submission.</comment>
+</template>
+<template>
+  <id>10002</id>
+  <filename>EXAMPLE2.bt</filename>
+  <version>1.0</version>
+  <authors>SweetScape Software</authors>
+  <description>Parse WAV audio files.</description>
+  <category>Audio</category>
+  <filemask>*.wav</filemask>
+  <idbytes>52 49 46 46 [+4] 57 41 56 45 //RIFF????WAVE</idbytes>
+  <hash>6769630cdc990e1002d923844411504c91f75a55</hash>
+  <date>2016-02-19</date>
+  <changeauthor>SweetScape</changeauthor>
+  <comment>Updated header for repository submission.</comment>
+</template>
+<template>
+  <id>10003</id>
+  <filename>EXAMPLE3.bt</filename>
+  <version>1.0</version>
+  <authors>SweetScape Software</authors>
+  <description>Parse ZIP archive files.</description>
+  <category>Archive</category>
+  <filemask>*.zip</filemask>
+  <idbytes>50 4B //PK</idbytes>
+  <hash>3e78c2919c75aa677cf63e1c28edcc844a79467d</hash>
+  <date>2016-02-19</date>
+  <changeauthor>SweetScape</changeauthor>
+  <comment>Updated header for repository submission.</comment>
+</template>
+<script>
+  <id>10004</id>
+  <filename>EXAMPLE1.1sc</filename>
+  <version>1.0</version>
+  <authors>SweetScape Software</authors>
+  <description>Determines if the currently open file contains only ASCII characters (byte range 0..127). If a non-ASCII byte is found, the cursor is moved to the first byte.</description>
+  <category>Text</category>
+  <hash>f20ab18dcbe7e0b6c4858c54e454773a48848f40</hash>
+  <requiresversion>4</requiresversion>
+  <date>2016-02-19</date>
+  <changeauthor>SweetScape</changeauthor>
+  <comment>Updated header for repository submission.</comment>
+</script>
+<script>
+  <id>10005</id>
+  <filename>EXAMPLE2.1sc</filename>
+  <version>1.0</version>
+  <authors>SweetScape Software</authors>
+  <description>Executes a paste operation a number of times. The user can enter the number of times to paste in an input box.</description>
+  <category>Clipboard</category>
+  <hash>68275b43936a85c477a0dfab5e9a34c456975c6f</hash>
+  <requiresversion>4</requiresversion>
+  <date>2016-02-19</date>
+  <changeauthor>SweetScape Software</changeauthor>
+  <comment>Updated header for repository submission.</comment>
+</script>
